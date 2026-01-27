@@ -1,0 +1,3 @@
+# Azure Functions Python Requirements
+azure-functions>=1.18.0
+requests>=2.31.0
