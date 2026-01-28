@@ -1,0 +1,16 @@
+name: Test GitHub App approval
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment: PROD
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Print test
+        run: echo 'This is a test'
