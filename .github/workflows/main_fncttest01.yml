@@ -34,8 +34,8 @@ jobs:
         id: deploy-to-function
         with:
           app-name: 'FNCTTEST01'
-          slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_861011752D4C47B0B12BA97395473CD6 }}
           scm-do-build-during-deployment: true
           enable-oryx-build: true
+
