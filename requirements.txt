@@ -1,3 +1,4 @@
-# Azure Functions Python Requirements
-azure-functions>=1.18.0
+# Azure Functions Python Requirements (v2 Programming Model)
+azure-functions>=1.20.0
+azure-functions-worker>=4.19.0
 requests>=2.31.0
